@@ -47,7 +47,102 @@ body {
 }
 
 .facts-window {
+    width: 75%;
     background-color: rgb(255, 247, 215);
     border: 3px solid black;
     margin-top: 30px;
+}
+
+.facts-content {
+    padding: 20px;
+    font-family: monospace;
+}
+
+.facts-bar {
+    background-color: rgb(35, 70, 183);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facts-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.facts-buttons span {
+    background-color: lightgray;
+    color: black;
+    border: 1px solid black;
+    width: 24px;
+    height: 22px;
+    text-align: center;
+}
+
+.favorites-window {
+    width: 65%;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: rgb(228, 213, 255);
+    border: 3px solid black;
+}
+
+.favorites-bar {
+    background-color: rgb(163, 64, 166);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favorites-content {
+    padding: 15px;
+}
+
+.hate-window {
+    width: 64%;
+    margin-top: 30px;
+    background-color: rgb(216, 240, 208);
+    border: 3px solid black;
+}
+
+.hate-bar {
+    background-color: rgb(57, 125, 86);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hate-content {
+    padding: 15px;
+}
+
+.obsession-window {
+    width: 50%;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: rgb(204, 232, 255);
+    border: 3px solid black;
+}
+
+.obsession-content {
+    padding: 20px;
+}
+
+.obsession-bar {
+    background-color: rgb(40, 91, 154);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
