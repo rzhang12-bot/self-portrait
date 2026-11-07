@@ -45,3 +45,9 @@ body {
 .window-content {
     padding: 20px;
 }
+
+.facts-window {
+    background-color: rgb(255, 247, 215);
+    border: 3px solid black;
+    margin-top: 30px;
+}
